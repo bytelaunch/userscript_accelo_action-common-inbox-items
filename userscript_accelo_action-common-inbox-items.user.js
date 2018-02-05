@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Accelo - Action Common Inbox Items
 // @namespace    http://www.bytelaunch.com/
-// @version      0.2
+// @version      0.3
 // @description  Action the following messages:
 //                 "Invoice for"
 //                 "Account invoice event log"
