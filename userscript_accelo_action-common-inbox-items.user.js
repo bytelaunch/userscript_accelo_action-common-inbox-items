@@ -28,6 +28,7 @@ var btn1 = jQuery('<button/>',
         $('.inboxrow__details__summary').each(function(){
             if (
                 $(this).text().indexOf("New ticket assigned") >= 0 ||
+                $(this).text().indexOf("New task assigned") >= 0 ||
                 $(this).text().indexOf('Task "') >= 0 ||
                 $(this).text().indexOf('Work started on task "') >= 0 ||
                 $(this).text().indexOf("Invoice for") >= 0 ||
