@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Accelo - Action Common Inbox Items
 // @namespace    http://www.bytelaunch.com/
-// @version      0.5
+// @version      0.6
 // @description  Action the following messages:
 //                 "Invoice for"
 //                 "Account invoice event log"
@@ -27,6 +27,7 @@ var btn1 = jQuery('<button/>',
 
         $('.inboxrow__details__summary').each(function(){
             if (
+                $(this).text().indexOf("Accepted: Updated invitation:") >= 0 ||
                 $(this).text().indexOf("New ticket assigned") >= 0 ||
                 $(this).text().indexOf("New task assigned") >= 0 ||
                 $(this).text().indexOf("Task assignment accepted") >= 0 ||
