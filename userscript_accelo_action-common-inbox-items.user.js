@@ -29,6 +29,7 @@ var btn1 = jQuery('<button/>',
             if (
                 $(this).text().indexOf("New ticket assigned") >= 0 ||
                 $(this).text().indexOf("New task assigned") >= 0 ||
+                $(this).text().indexOf("Task assignment accepted") >= 0 ||
                 $(this).text().indexOf('Task "') >= 0 ||
                 $(this).text().indexOf('Work started on task "') >= 0 ||
                 $(this).text().indexOf("Invoice for") >= 0 ||
